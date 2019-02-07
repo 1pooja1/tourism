@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width ,initial-scale=1,user-scalable=no"/>
+	<title>tourism responsive website</title>
+	<link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<style >
+		*{
+			margin: 0px;
+			padding: 0px;
+		}
+		body{
+			width: 100%;
+			height: 100%;
+			box-sizing: border-box;
+	
+		}
+		header{
+			width: 100%;
+			height: 300px;
+			
+			background-color: #faebd7;
+			
+		}
+	
+		
+		#nav  #img1{
+		
+			float: left;
+
+			border: 2px solid green;
+		}
+		#nav{
+			width: 100%;
+	        background: #00316b;
+			height: 60px;
+			
+			float: right;
+		
+					}
+	#nav h2{
+				padding: 20px;
+				font-weight: 700;
+				font-size: 35px;
+				color: #fff;
+				font-family: cursive;
+				text-align: center;
+				text-shadow: 0px 2px 4px blue;
+}
+ul{
+	width: 80%;
+	margin: 0 auto;
+	padding: 0;
+	height: 60px;
+}
+ul li{
+	list-style: none;
+	display: inline-block;
+	padding: 20px;
+	font-size: 15px;
+}
+ul li:hover{
+	background: #e91e63;
+}
+ul li a{
+color: #fff;
+	text-decoration: none;
+}
+.toggle{
+	width: 100%;
+	padding: 10px 20px;
+	background-color: #001f44;
+	text-align: right;
+	box-sizing: border-box;
+	color: #fff;
+	font-size: 30px;
+	display: none;
+}
+
+
+
+.blog{
+	width: 100%;
+	height: 100%;
+		/*background-color: #ec3ec4;*/
+}
+
+footer{
+	width: 100%;
+	height: 250px;
+/*	border: 2px solid red;
+*/	background-color: #344950;
+}
+footer p{
+	font-size: 18px;
+	font-family: sans-serif;
+	font-weight: 400;
+	text-transform: uppercase;
+	text-align: center;
+	color: #fff;
+	
+	padding: 10px;
+	
+}
+footer p .fh5co-social-icons a{
+			text-decoration: none;
+			text-transform: uppercase;
+			font-size: 31px;
+			font-family: 'oswal' sans-serif;
+			text-align: center;
+			
+		
+		
+		}
+		
+footer .fh5co-social-icons a i{
+		
+			margin-left: 20px;
+			background-color: white;
+			height: 45px;
+			width: 45px;
+			line-height: 45px;
+			color: black;
+			border-radius: 50%;
+			font-size: 30px;
+			text-align: center;
+		}
+		footer .fh5co-social-icons a i.fa-facebook-f{
+			color: #2c80d3;
+		}
+		footer .fh5co-social-icons a i.fa-youtube{
+			color:#fa0910 ;
+		}
+		footer .fh5co-social-icons a i.fa-twitter{
+			color:#53c5ff ;
+		}
+		footer .fh5co-social-icons a i.fa-google-plus:hover{
+		     color:#b22222 ;
+		}
+
+		footer .fh5co-social-icons a i.fa-linkedin:hover{
+			color:#344950 ;
+		}
+		footer .fh5co-social-icons a i.fa-facebook-f:hover{
+			background-color: yellow;
+		}
+		footer .fh5co-social-icons a i.fa-youtube:hover{
+			background-color:green;
+		}
+		footer .fh5co-social-icons a i.fa-twitter:hover{
+			background-color: #fa0910;
+		}
+		footer .fh5co-social-icons a i.fa-google-plus:hover{
+			background-color: #deb887;
+		}
+
+		footer .fh5co-social-icons a i.fa-linkedin:hover{
+			background-color: #008b8b;
+		}
+
+@media(max-width: 768px){
+			
+		.toggle{
+			display: block;
+		}
+		ul{
+			width: 100%;
+			display: none;
+			height: 80px;
+
+		}
+		ul li{
+			display: block;
+			text-align: center;
+			background-color: gray;
+			font-size: 15px;
+
+		}
+		.active{
+			display: block;
+		}
+		#nav{
+			width: 100%;
+		}
+		#nav  #img1{
+			
+			float: none;
+			width: 100%;
+		}
+		header{
+			width: 100%;
+		}
+
+#nav h2{
+	font-weight: 400;
+	font-size: 15px;
+	color: #344950;
+	font-family: cursive;
+	text-align: center;
+	text-shadow: 0px 2px 4px red;
+}
+
+.blog{
+	width: 100%;
+	height: 100%;
+
+}
+
+footer{
+	width: 100%;
+	height: 250px;
+	
+		background-color: #344950;
+}
+footer p{
+	font-size: 15px;
+	
+}
+footer a{
+			text-decoration: none;
+			text-transform: uppercase;
+			font-size: 31px;
+			font-family: 'oswal' sans-serif;
+			
+			
+		
+		
+		}
+footer a i{
+		
+			margin-left: 20px;
+			background-color: white;
+			height: 45px;
+			width: 45px;
+			line-height: 45px;
+			color: black;
+			border-radius: 50%;
+		
+			text-align: center;
+		}
+}
+	
+	</style>
+</head>
+<body>
+	<header>
+		<div id="nav">
+			<div id="img1">
+			       <img src="img/download.jpg" width="200" height="56">
+		    </div>
+			<div class="toggle">
+				<i class="fa fa-bars menu"></i>
+			</div>
+			<ul>
+				<li><a href="index.html">Home</a> </li>
+				<li><a href="#">Blog</a> </li>
+				<li><a href="contact.html">Contact Us</a> </li>
+			</ul>
+			<h2>Here you can contact us if you have any query</h2>
+		</div>
+		<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+<script type="text/javascript">
+		$(document).ready(function(){
+			$('.menu').click(function(){
+				$('ul').toggleClass('active');
+			})
+		})
+</script>
+	</header>
+	
+	<div class="blog">
+			 <section  id="contact">
+           <div class="container">
+<div class="row text-center">
+                <div class="text-center">
+                    <div class="col-md-6 col-sm-6">
+                   <iframe class="cnt" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2999841.293321206!2d-75.80920404999999!3d42.75594204999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4ccc4bf0f123a5a9%3A0xddcfc6c1de189567!2sNew+York!5e0!3m2!1sen!2s!4v1395313088825" s="" width="350" height="280"></iframe>
+
+                </div>
+                   <div class="col-md-6 col-sm-6 alert-danger">
+                            <h4>OUR LOCATION</h4>
+                 
+                    <p>
+                         <strong> Address: </strong> &nbsp;Newyork City, Your Country, Pin-000000.  
+                        <br>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                      
+                    </p>
+                        <div class="row">
+                            <div class="col-md-6 ">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" required="required" placeholder="Name">
+                                </div>
+                            </div>
+                            <div class="col-md-6 ">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" required="required" placeholder="Email address">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12 ">
+                                <div class="form-group">
+                                    <textarea name="message" id="message" required="required" class="form-control" rows="3" placeholder="Message"></textarea>
+                                </div>
+                                <div class="form-group">
+                                    <button type="submit" class="btn btn-danger">Submit Request</button>
+                                </div>
+                            </div>
+                        </div>
+                            
+                            
+                    </div>
+                    
+                     
+                </div>
+                  </div>
+               </div>
+      </section>
+		</div>
+	</div>
+	<footer>
+			<p><i class="fa fa-user"></i> Name of company owner: mr.krishna swami </p>
+			<p><i class="fa fa-map-marker"> Address:198 West 21th Street, New York NY 10016</i>  </p>
+			<p><i class="fa fa-phone"></i> Contact-No:+ 1235 2355 98</p>
+			<p class="fh5co-social-icons">
+				<a href="#"><i class="fa fa-facebook-f"></i></a>
+				<a href="#"><i class="fa fa-youtube"></i></a>
+			    <a href="#"><i class="fa fa-twitter"></i></a>
+			    <a href="#"><i class="fa fa-google-plus"></i></a>
+			    <a href="#"><i class="fa fa-linkedin"></i></a>
+		    </p>
+
+	</footer>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
